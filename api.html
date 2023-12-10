@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>api</title>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+
+  
+  <script src="./script.js"></script>
+  <!-- !PAGE CONTENT! -->
+  <div class="w3-content" style="max-width:1500px">
+
+    <!-- Header -->
+    <header class="w3-panel w3-center w3-opacity" style="padding:128px 16px">
+      <h1 class="w3-xlarge"></h1>
+      <h1>Welcome to My World</h1>
+      <h1>I'm Jirapas Homta</h1>
+      <a href="https://www.facebook.com/PiawInDy/"><i class="fa-brands fa-facebook-f"></i></a>
+      <a href="https://www.instagram.com/pie_baibua/"><i class="fa-brands fa-instagram"></i></a>
+      <a href="https://discord.gg/DtSWZJTEMr"><i class="fa-brands fa-discord"></i></a>
+
+      <div class="w3-padding-32">
+        <div class="w3-bar w3-border">
+          <a href="index.html" class="w3-bar-item w3-button w3-light-grey">index</a>
+          <a href="java.html" class="w3-bar-item w3-button">java</a>
+          <a href="api.html" class="w3-bar-item w3-button w3-hide-small">api</a>
+        </div>
+      </div>
+    </header>
+
+    <div class="container">
+      <div class="api-randompic">
+        <div><h1>Click to get a Random Image </h1></div>
+        <div><img id="randomImage" src="https://source.unsplash.com/300x300/?random&amp;0" alt="Random Image"></div>
+        <div><button class="rd-but-pic" onclick="getRandomImage()">Get Random Image</button></div>
+      </div>
+      <div class="coin-api">
+        <div><h1>Coinbase API Demo</h1></div>
+        <div id="lastUpdateTime"><p>Last Update Time : </p>
+        </div>
+      <div id="prices"><p>1 USDT can buy:</p><ul>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li></ul></div>
+      
+          
+
+          <div class="form"><form id="myForm" method="POST" action="https://script.google.com/macros/s/AKfycbw5a6SaLmFsQnEevIC4Ib4aFYlNedtDq8IzmELGSKEg-pudPTJo0cyGYunmg4fNqF3D9Q/exec">
+            <input name="Name" type="text" placeholder="Name" required>
+            <input name="Email" type="email" placeholder="Email" required> 
+            <input name="Topic" type="text" placeholder="Topic" required> 
+            <br>
+            <button class="bt-send" type="submit">Send</button>
+          </form></div>
+
+          <div class="embed">
+            <iframe style="width: 40vw; height: 40vh;" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTdBTBq6q850CWDMsuIF_fmS3NxSaFHjhODCFEm8qlQRwZ4QQH57snrM9Eaj22yFXyY2Tv-yWsNV2S3/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
+          </div>
+        <div class="map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2312.1265130866254!2d100.89900007140814!3d12.938684314304929!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x310295f98829e1c9%3A0xb1be13cab479070!2z4Lin4Li04LiX4Lii4Liy4Lil4Lix4Lii4LmA4LiX4LiE4LmC4LiZ4LmC4Lil4Lii4Li14Lie4Lij4Liw4Lih4Lir4Liy4LmE4LiW4LmIIOC4nuC4seC4l-C4ouC4sg!5e0!3m2!1sth!2sth!4v1702225702695!5m2!1sth!2sth" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+      </div>
+    </div>
+
+
+
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+      <div class="col-md-4 d-flex align-items-center">
+        <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+          <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16"
+            viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.-->
+            <path
+              d="M481 31C445.1-4.8 386.9-4.8 351 31l-15 15L322.9 33C294.8 4.9 249.2 4.9 221.1 33L135 119c-9.4 9.4-9.4 24.6 0 33.9s24.6 9.4 33.9 0L255 66.9c9.4-9.4 24.6-9.4 33.9 0L302.1 80 186.3 195.7 316.3 325.7 481 161c35.9-35.9 35.9-94.1 0-129.9zM293.7 348.3L163.7 218.3 99.5 282.5c-48 48-80.8 109.2-94.1 175.8l-5 25c-1.6 7.9 .9 16 6.6 21.7s13.8 8.1 21.7 6.6l25-5c66.6-13.3 127.8-46.1 175.8-94.1l64.2-64.2z" />
+          </svg>
+        </a>
+        <span class="mb-3 mb-md-0 text-body-secondary">© 2023 Jirapas</span>
+      </div>
+    </footer>
+
+
+    <script>
+      // demo coin api
+function fetchPrices() {
+    var now = new Date();
+    var currentTime = now.toLocaleTimeString();
+
+    fetch('https://api.coinbase.com/v2/exchange-rates?currency=USDT')
+        .then(response => response.json())
+        .then(data => {
+            displayPrices(data);
+            displayLastUpdateTime(currentTime);
+        })
+        .catch(error => {
+            console.error('Error fetching data:', error);
+            alert('Error fetching data. Please try again.');
+        });
+}
+
+
+
+function displayPrices(data) {
+    var pricesDiv = document.getElementById('prices');
+    var rates = data.data.rates;
+
+    var currencies = ['BTC', 'ETH', 'XRP', 'LTC', 'DOGE', 'BCH', 'BNB', 'LINK', 'XLM'];
+    var pricesHtml = '<p>1 USDT can buy:</p><ul>';
+
+    currencies.forEach(currency => {
+        if (rates[currency]) {
+            pricesHtml += `<li>${currency}: ${rates[currency]}</li>`;
+        } else {
+            pricesHtml += `<li>${currency}: N/A</li>`;
+        }
+    });
+
+    pricesHtml += '</ul>';
+    pricesDiv.innerHTML = pricesHtml;
+}
+
+function displayLastUpdateTime(currentTime) {
+    var updateTimeDiv = document.getElementById('lastUpdateTime');
+    updateTimeDiv.innerHTML = `<p>Last Update Time : ${currentTime}</p>`;
+  }
+
+  fetchPrices();
+
+  setInterval(fetchPrices, 3000);
+    </script>
+    
+    <script>
+  
+  document.addEventListener("DOMContentLoaded", function () {
+                        const myForm = document.getElementById("myForm");
+        
+                        myForm.addEventListener("submit", function (event) {
+                            event.preventDefault();
+                            
+                            const formData = new FormData(myForm);
+                            fetch(myForm.action, {
+                                method: 'POST',
+                                body: formData
+                            })
+                            
+                                .then(response => response.json())
+                                .then(data => {
+                                    alert("Succes");
+                                    console.log("Google Sheets Response:", data);
+                                })
+                                .catch(error => console.error('Error submitting form:', error));
+                                
+                        });
+                    });
+                
+    </script>
+</body>
+</html>

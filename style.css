@@ -1,0 +1,177 @@
+* {box-sizing: border-box;}
+body {
+  background-image: 
+            linear-gradient(90deg, rgba(0,0,5,0.7447795823665893) 0%, rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 0) 60%, rgba(0,0,0,0.7981438515081206) 100%)
+}
+body,h1 {font-family: "Raleway", Arial, sans-serif}
+h1 {letter-spacing: 6px}
+
+.myskil {
+    text-align: center;
+    padding-bottom: 20px;
+}
+.profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.profile img {
+    width: 250px;
+    border-radius: 50px;
+    position: relative;
+    bottom: 100px;
+}
+
+ .container {
+  margin: 20px;
+ }
+
+.container-skil {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+    margin: auto;
+    padding: 50px;
+    
+     
+  }
+  
+  .skills {
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    color: rgb(248, 246, 246);
+  }
+  
+  .html {width: 90%; background-color: gray; margin: 10px;border-radius: 20px;}
+  .css {width: 80%; background-color: gray; margin: 10px;border-radius: 20px;}
+  .js {width: 65%; background-color: gray; margin: 10px;border-radius: 20px;}
+  .php {width: 60%; background-color: gray;margin: 10px;border-radius: 20px;}
+
+  .text-s1 {
+    font-weight: bold;
+  }
+
+  .portfolio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .portfolio .container {
+    text-align: center;
+    gap: 10px;
+    
+  }
+  .portfolio h1 {
+    padding: 20px;
+  }
+  .portfolio img {
+    margin: 20px;
+    
+    
+    border-radius: 25px;
+  }
+
+ 
+  .message {
+    margin-top: 10px;
+  }
+  .taxt-area {
+    margin: 16px;
+    resize : none;
+}
+  .javascript {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .container  {
+    text-align: center;
+    display: inline;
+    
+  }
+  #output {
+    font-size: 2rem;
+  }
+  #diceResult {
+    margin: 2px;
+    font-size: 2rem;
+  }
+
+  .login-button {
+    margin-top: 20px;
+    border-radius: 20px;
+    border: none;
+  }
+  .random-button {
+    border-radius: 20px;
+    border: none;
+  }
+  .cal-button {
+    
+    border-radius: 20px;
+    border: none;
+  }
+  .score-button {
+    border-radius: 20px;
+    border: none;
+  }
+
+  .embed {
+    margin-top: 50px;
+    resize: vertical;
+    min-width: 500px;
+
+  }
+  
+  .container input {
+    margin-inline-start: 20px;
+  }
+
+  .container .api-randompic {
+    justify-content: center;
+    align-items: center;
+   
+  }
+  .api-randompic h1 {
+    margin: 25px;
+  }
+  .api-randompic img {
+    margin: 25px;
+  }
+  .rd-but-pic {
+    justify-content: center;
+    margin-top: 25px;
+    border-radius: 50px;
+    border: none;
+    color: black;
+  }
+  .rd-but-pic:hover {
+    color: gray;
+    transition: all .5s;
+  }
+  .coin-api {
+    margin-left: 200px;
+    margin-right: 200px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .form {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .bt-send {
+    border-radius: 50px;
+    border: none;
+    margin-top: 30px;
+  }
+  .map {
+    margin-top: 50px;
+  }
